@@ -1,0 +1,18 @@
+{
+  "name": "nwa-scicom-suitcase-ai-dilemmas",
+  "version": "0.0.0",
+  "description": "Deployment scripts for the AI Dilemmans Suitcase exhibit",
+  "main": "index.js",
+  "dependencies": {
+    "degit": "^2.8.4",
+    "pnpm": "10.17.1"
+  },
+  "scripts": {
+    "build": "rm -rf ./AI-Dilemmas-Suitcase ./dist && degit github:Idkwhoami42/AI-Ethics-Suitcase#83f905866139de5ae5d73fdbffbab05cbf32f06f --force AI-Dilemmas-Suitcase && cp -R ./extras/. ./AI-Dilemmas-Suitcase/. && cd ./AI-Dilemmas-Suitcase && pnpm install && pnpm run build && cd .. && mv ./AI-Dilemmas-Suitcase ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IMAGINARY/nwa-scicom-suitcase-ai-dilemmas.git"
+  },
+  "private": true
+}
