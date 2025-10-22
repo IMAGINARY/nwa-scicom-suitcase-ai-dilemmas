@@ -1,6 +1,6 @@
 {
   "name": "nwa-scicom-suitcase-ai-dilemmas",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Deployment scripts for the AI Dilemmans Suitcase exhibit",
   "main": "index.js",
   "dependencies": {
