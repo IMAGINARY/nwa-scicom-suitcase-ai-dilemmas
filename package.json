@@ -8,7 +8,7 @@
     "pnpm": "10.17.1"
   },
   "scripts": {
-    "build": "rm -rf ./AI-Dilemmas-Suitcase ./dist && degit github:Idkwhoami42/AI-Ethics-Suitcase#83f905866139de5ae5d73fdbffbab05cbf32f06f --force AI-Dilemmas-Suitcase && cp -R ./extras/. ./AI-Dilemmas-Suitcase/. && cd ./AI-Dilemmas-Suitcase && pnpm install && pnpm run build && cd .. && mv ./AI-Dilemmas-Suitcase ./dist"
+    "build": "rm -rf ./AI-Dilemmas-Suitcase ./dist && degit github:Idkwhoami42/AI-Form#5665438488c00c5323ee7a2ad69982e87561e97b --force AI-Dilemmas-Suitcase && cp -R ./extras/. ./AI-Dilemmas-Suitcase/. && cd ./AI-Dilemmas-Suitcase && pnpm install && pnpm run build && cd .. && mv ./AI-Dilemmas-Suitcase ./dist"
   },
   "repository": {
     "type": "git",

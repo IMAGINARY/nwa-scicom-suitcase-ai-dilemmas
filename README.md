@@ -1,8 +1,6 @@
 # nwa-scicom-suitcase-ai-dilemmas
 
-Deployment scripts for the [NWA Science Communication AI Dilemmas](https://example.com) suitcase exhibit.
-
-This is currently a placeholder since the exhibit has not been developed yet.
+Deployment scripts for the [NWA Science Communication AI Dilemmas](https://github.com/Idkwhoami42/AI-Form) suitcase exhibit.
 
 ## Building
 
